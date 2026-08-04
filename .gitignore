@@ -1,0 +1,45 @@
+# ---- KiCad ----
+
+# 自動バックアップ（プロジェクト名-backups/ に zip が溜まる）
+*-backups/
+
+# ローカル設定（開いていたウィンドウ・レイヤ表示など、環境依存）
+*.kicad_prl
+
+# フットプリント情報のローカルキャッシュ
+fp-info-cache
+
+# バックアップ / オートセーブ
+*.bak
+*-bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_sym-bak
+_autosave-*
+\#auto_saved_files\#
+
+# ロックファイル
+*.lck
+~*.lck
+
+# 中間生成物
+*.net
+*.xml
+*.dsn
+*.ses
+*-erc.rpt
+*-drc.rpt
+*.kicad_dru
+
+# ---- JLCPCB プラグイン ----
+
+# プラグインのローカル DB（パーツキャッシュ）
+jlcpcb/project.db
+
+# 個別ガーバー／ドリルは production_files/*.zip に含まれるので追跡しない
+jlcpcb/gerber/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
