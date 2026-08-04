@@ -9,6 +9,8 @@
 - 電源: 単 4 電池 × 1（1.5 V）→ 昇圧 5 V
 - 設計環境: KiCad 9
 
+回路図は [Contact-Monitor-Board.pdf](Contact-Monitor-Board.pdf) でも閲覧できます（KiCad は不要です）。
+
 ## 特徴
 
 - **16 ch 一括表示** — 各チャンネルに 2 ピンコネクタと LED を 1 個ずつ。接点が閉じている ch の LED だけが点灯します。
@@ -91,6 +93,7 @@ D1 / R1 は電源表示用で、チャンネルには対応しません。
 | `Contact-Monitor-Board.kicad_pro` | KiCad プロジェクトファイル |
 | `Contact-Monitor-Board.kicad_sch` | 回路図 |
 | `Contact-Monitor-Board.kicad_pcb` | 基板レイアウト |
+| [Contact-Monitor-Board.pdf](Contact-Monitor-Board.pdf) | 回路図 PDF（KiCad 不要で閲覧可能） |
 | [Library.pretty/](Library.pretty/) | プロジェクト固有フットプリント（電池ホルダ） |
 | [jlcpcb/production_files/](jlcpcb/production_files/) | 製造用データ（ガーバー zip / BOM / CPL） |
 
