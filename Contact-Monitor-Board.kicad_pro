@@ -491,7 +491,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "io_check_board.kicad_pro",
+    "filename": "Contact-Monitor-Board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -755,7 +755,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "tmp/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
