@@ -10,7 +10,7 @@
 	(title_block
 		(title "Contact Monitor Board")
 		(date "2026-08-04")
-		(rev "1.0")
+		(rev "1.1")
 		(company "Satoru Yamaguchi")
 		(comment 1 "Copyright (c) 2026 Satoru Yamaguchi")
 		(comment 2 "SPDX-License-Identifier: CERN-OHL-P-2.0")
@@ -78911,7 +78911,7 @@
 			)
 		)
 	)
-	(gr_text "CONTACT MONITOR BOARD\nV1.0"
+	(gr_text "CONTACT MONITOR BOARD\nV1.1"
 		(at 156.614 40.798 0)
 		(layer "F.SilkS")
 		(uuid "1b009ccd-ef6c-4748-9d0a-fb7ebdb0eefd")
