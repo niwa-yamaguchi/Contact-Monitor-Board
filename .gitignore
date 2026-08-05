@@ -43,3 +43,6 @@ jlcpcb/gerber/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# ---- テンポラリフォルダ ----
+tmp/
