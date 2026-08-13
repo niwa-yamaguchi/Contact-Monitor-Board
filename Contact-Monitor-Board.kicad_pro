@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|80160000|46132000|08150eb8-8ef6-468d-b18d-553fe0fd6429|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -266,7 +271,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|571500|520700|b1a65ac0-357b-4f61-982f-db682b2747e4|00000000-0000-0000-0000-000000000000|/496c0bcf-dcf8-42a2-ad03-6434b36d6663|/496c0bcf-dcf8-42a2-ad03-6434b36d6663|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
