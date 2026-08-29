@@ -11,6 +11,16 @@
 
 回路図は [Contact-Monitor-Board.pdf](Contact-Monitor-Board.pdf) でも閲覧できます（KiCad は不要です）。
 
+## 外観
+
+| 表面 | 裏面 |
+| --- | --- |
+| [![表面](Contact-Monitor-Board_photo_top.jpg)](Contact-Monitor-Board_photo_top.jpg) | [![裏面](Contact-Monitor-Board_photo_bot.jpg)](Contact-Monitor-Board_photo_bot.jpg) |
+
+表面は左上に電源部と観測用ヘッダ J17、下部に単 4 電池ホルダ（BT1）、右側に 2 列 × 8 の接点入力コネクタ（J1〜J16）を配置しています。各コネクタの脇に表示 LED があり、コネクタ番号と LED のリファレンスをシルク印字しています。写真は電源 ON の状態で、右上の電源表示 LED（D1）が点灯しています。中央の枠はチャンネル名を書き込めるラベル欄です。
+
+裏面には回路図全体をシルクで印字しています。基板単体でも回路構成と J17 のピン配列を確認できます。
+
 ## 特徴
 
 - **16 ch 一括表示** — 各チャンネルに 2 ピンコネクタと LED を 1 個ずつ。接点が閉じている ch の LED だけが点灯します。
